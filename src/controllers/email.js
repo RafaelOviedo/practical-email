@@ -25,7 +25,7 @@ const Email = {
         res.status(500).send({ error });
       }
       else {
-        res.redirect(''); // CHANGE THIS TO FRONT END TEMPLATE FOR PRACTICAL-EMAIL
+        res.redirect('https://practical-email-landing.vercel.app/thank_you');
       }
     })
   }
